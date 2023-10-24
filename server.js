@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const Product = require('./models/productModel')
 const app = express()
-const uri = "mongodb+srv://admin:8148@sujithapi.e9y5xnt.mongodb.net/Node-API?retryWrites=true&w=majority";
+const uri = "URL";
 
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
